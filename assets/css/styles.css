@@ -1,0 +1,114 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: rgba(40, 46, 48, 0.945); 
+}
+
+a {
+  color: #dfdfdf;
+}
+
+a:hover {
+  color: #b9b9b9;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: rgba(49, 57, 59, 0.945);
+}
+
+.section-2 {
+	background-color: rgba(40, 46, 48, 0.945);
+}
+
+.section-3 {
+	background-color:rgba(40, 46, 48, 0.945);
+}
+
+.section-4 {
+	background-color: rgba(29, 33, 34, 0.945);
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:300px;
+	border-radius: 25%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 500px;
+	max-width: 500px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+
+
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(74, 85, 88, 0.945);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: rgba(40, 46, 48, 0.945);
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+	.github{
+		width: 200px;
+	}
+}
